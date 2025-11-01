@@ -9,8 +9,6 @@ DB_USER = os.getenv("DB_USER", "user")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "senha123")
 DB_NAME = os.getenv("DB_NAME", "meu_banco")
 
-time.sleep(10)
-
 @app.route("/")
 def index():
     try:
@@ -26,4 +24,5 @@ def index():
         return f"<h1> Erro ao conectar </h1><p>{e}</p>"
 
 if __name__ == "__main__":
+
     app.run(host="0.0.0.0", port=5000)
