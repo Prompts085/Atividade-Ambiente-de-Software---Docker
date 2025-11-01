@@ -1,7 +1,7 @@
 # 🐳 Meu Primeiro Ambiente Docker Compose
 
 Projeto desenvolvido para a disciplina **Ambiente de Software** com o objetivo de criar um ambiente composto por duas aplicações containerizadas:  
-um **site Flask** e um **banco de dados MySQL**, comunicando-se via Docker Compose.
+- um **site Flask** e um **banco de dados MySQL**, comunicando-se via Docker Compose.
 
 ## 🎯 Objetivo
 
